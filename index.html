@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Main</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220731221947">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__left">
+					<a href="index.html" class="header__logo">
+						<img src="img/header/logo.svg" alt="">
+						<span>Check VIN. Don't be fooled</span>
+					</a>
+					<a href="report.html" data-da=".header__sample-work,992,1" class="header__report-link btn-dark">Sample of
+						report</a>
+				</div>
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body header__nav">
+						<ul class="header__list">
+							<li class="header__item">
+								<a href="" class="header__link">Cost</a>
+							</li>
+							<li class="header__item">
+								<a href="" class="header__link">Help</a>
+							</li>
+							<li class="header__item">
+								<a href="" class="header__link">Blog</a>
+							</li>
+						</ul>
+						<div class="header__sample-work"></div>
+					</nav>
+				</div>
+				<div class="header__lang">
+					<select placeholder="EN" class="" id="a-select">
+						<option value="1">EN</option>
+						<option value="2">RU</option>
+						<option value="3">UA</option>
+					</select>
+				</div>
+				<div data-da=".header__nav,992,2" class="header__authorization">
+					<a href="" data-popup="#popup" data-reg class="header__reg btn-dark">Register</a>
+					<a href="" data-popup="#popup" data-log class="header__login btn">Login</a>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="check-vehicle">
+				<div class="check-vehicle__container">
+					<div class="check-vehicle__text">Here is the vehicle you’re looking for. Also you may check a new one.
+					</div>
+					<div class="check-vehicle__check">
+						<div class="check-vehicle__input">
+							<input type="text" class="main-input">
+						</div>
+						<div class="check-vehicle__btn btn">Check new</div>
+					</div>
+				</div>
+			</div>
+			<div class="history-report">
+				<div class="history-report__container">
+					<div class="history-report__top">
+						<h3 class="history-report__decor-title decor-title">Here is the vehicle</h3>
+						<div class="history-report__line">
+							<div class="history-report__left">
+								<h2 class="history-report__brand sub-title">Mercedes-Benz GLC-Class, 2019</h2>
+								<div class="history-report__vin"><span>VIN:</span>WDC0G6EB9KF522869</div>
+							</div>
+							<div class="history-report__right">
+								<button data-pay class="history-report__btn btn">Buy full report 5,99€</button>
+							</div>
+						</div>
+					</div>
+					<div class="history-report__bottom report-bottom">
+						<div class="report-bottom__items">
+							<div class="report-bottom__item">
+								<img src="img/icons/speed.svg" alt="">
+								<h4 class="report-bottom__item-title">Odometr records</h4>
+								<div class="report-bottom__problem">
+									<span>No problems found</span>
+									<span class="_icon-success"></span>
+								</div>
+							</div>
+							<div class="report-bottom__item">
+								<img src="img/icons/car.svg" alt="">
+								<h4 class="report-bottom__item-title">Vehicle damages</h4>
+								<div class="report-bottom__problem">
+									<span class="red">3 damages</span>
+									<span class="_icon-warn"></span>
+								</div>
+							</div>
+							<div class="report-bottom__item">
+								<img src="img/icons/bump.svg" alt="">
+								<h4 class="report-bottom__item-title">Accidents</h4>
+								<div class="report-bottom__problem">
+									<span>No problems found</span>
+									<span class="_icon-success"></span>
+								</div>
+							</div>
+							<div class="report-bottom__item">
+								<img src="img/icons/util.svg" alt="">
+								<h4 class="report-bottom__item-title">Salvage records</h4>
+								<div class="report-bottom__problem">
+									<span>No problems found</span>
+									<span class="_icon-success"></span>
+								</div>
+							</div>
+							<div class="report-bottom__item">
+								<img src="img/icons/private.svg" alt="">
+								<h4 class="report-bottom__item-title">Theft records</h4>
+								<div class="report-bottom__problem">
+									<span>No problems found</span>
+									<span class="_icon-success"></span>
+								</div>
+							</div>
+							<div class="report-bottom__item">
+								<img src="img/icons/private.svg" alt="">
+								<h4 class="report-bottom__item-title">Lien / impound / export records</h4>
+								<div class="report-bottom__problem">
+									<span>No problems found</span>
+									<span class="_icon-success"></span>
+								</div>
+							</div>
+							<div class="report-bottom__item">
+								<img src="img/icons/safe.svg" alt="">
+								<h4 class="report-bottom__item-title">Junk / salvage / insurance records</h4>
+								<div class="report-bottom__problem">
+									<span class="red">3 damages</span>
+									<span class="_icon-warn"></span>
+								</div>
+							</div>
+							<div class="report-bottom__item">
+								<img src="img/icons/file.svg" alt="">
+								<h4 class="report-bottom__item-title">Other title brands check</h4>
+								<div class="report-bottom__problem">
+									<span class="red">1 problem</span>
+									<span class="_icon-warn"></span>
+								</div>
+							</div>
+							<div class="report-bottom__item">
+								<img src="img/icons/license.svg" alt="">
+								<h4 class="report-bottom__item-title">Title history</h4>
+								<div class="report-bottom__problem">
+									<span>No problems found</span>
+									<span class="_icon-success"></span>
+								</div>
+							</div>
+							<div class="report-bottom__item">
+								<img src="img/icons/law.svg" alt="">
+								<h4 class="report-bottom__item-title">Sales history</h4>
+								<div class="report-bottom__problem">
+									<span>No problems found</span>
+									<span class="_icon-success"></span>
+								</div>
+							</div>
+							<div class="report-bottom__item">
+								<img src="img/icons/self-car.svg" alt="">
+								<h4 class="report-bottom__item-title">Number of owners</h4>
+								<div class="report-bottom__problem">
+									<span>No problems found</span>
+									<span class="_icon-success"></span>
+								</div>
+							</div>
+							<div class="report-bottom__item">
+								<img src="img/icons/taxi.svg" alt="">
+								<h4 class="report-bottom__item-title">Taxi</h4>
+								<div class="report-bottom__problem">
+									<span>No problems found</span>
+									<span class="_icon-success"></span>
+								</div>
+							</div>
+						</div>
+
+						<div class="history-report__gallery gallery-report">
+							<div class="gallery-report__top">
+								<span class="gallery-report__quantity">Found 12 photos</span>
+								<span class="gallery-report__actons">3 auctons</span>
+							</div>
+							<div class="gallery-report__img">
+								<picture><source srcset="img/main/carpixel.webp" type="image/webp"><img src="img/main/carpixel.jpg" alt="carpixel"></picture>
+							</div>
+							<div class="gallery-report__previews">
+								<div data-gallery class="gallery-report__preview -ibg">
+									<picture><source srcset="img/main/1.webp" type="image/webp"><img src="img/main/1.jpg" alt="preview lock-none"></picture>
+								</div>
+								<div class="gallery-report__preview blur -ibg">
+									<picture><source srcset="img/main/2.webp" type="image/webp"><img src="img/main/2.jpg" alt="preview"></picture>
+								</div>
+								<div class="gallery-report__preview blur -ibg">
+									<picture><source srcset="img/main/3.webp" type="image/webp"><img src="img/main/3.jpg" alt="preview"></picture>
+								</div>
+								<div class="gallery-report__preview blur -ibg">
+									<picture><source srcset="img/main/1.webp" type="image/webp"><img src="img/main/1.jpg" alt="preview"></picture>
+								</div>
+								<div class="gallery-report__preview blur -ibg">
+									<picture><source srcset="img/main/2.webp" type="image/webp"><img src="img/main/2.jpg" alt="preview"></picture>
+								</div>
+								<div class="gallery-report__preview blur -ibg">
+									<picture><source srcset="img/main/3.webp" type="image/webp"><img src="img/main/3.jpg" alt="preview"></picture>
+								</div>
+								<div class="gallery-report__preview blur -ibg">
+									<picture><source srcset="img/main/1.webp" type="image/webp"><img src="img/main/1.jpg" alt="preview"></picture>
+								</div>
+								<div data-gallery class="gallery-report__preview blur -ibg lock-none">
+									<picture><source srcset="img/main/3.webp" type="image/webp"><img src="img/main/3.jpg" alt="preview"></picture>
+									<span>See more</span>
+								</div>
+							</div>
+							<button type="button" data-gallery class="gallery-report__btn btn">Show
+								all
+								photos</button>
+							<!-- <div data-gallery class="gallery-report__items">
+								<a class="gallery-report__item" href="img/main/carpixel.jpg">
+									<picture><source srcset="img/main/1.webp" type="image/webp"><img src="img/main/1.jpg" /></picture>
+								</a>
+								<a class="gallery-report__item" href="img/main/carpixel.jpg">
+									<picture><source srcset="img/main/2.webp" type="image/webp"><img src="img/main/2.jpg" /></picture>
+								</a>
+								<a class="gallery-report__item" href="img/main/carpixel.jpg">
+									<picture><source srcset="img/main/3.webp" type="image/webp"><img src="img/main/3.jpg" /></picture>
+								</a>
+								<a class="gallery-report__item" href="img/main/carpixel.jpg">
+									<picture><source srcset="img/main/1.webp" type="image/webp"><img src="img/main/1.jpg" /></picture>
+								</a>
+								<a class="gallery-report__item" href="img/main/carpixel.jpg">
+									<picture><source srcset="img/main/2.webp" type="image/webp"><img src="img/main/2.jpg" /></picture>
+								</a>
+							</div> -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="specifiaction">
+				<div class="specifiaction__container">
+					<div class="specifiaction__content specifiaction-content">
+						<div class="specifiaction-content__body spec-content">
+							<div class="specifiaction-content__top spec-content__top">
+								<h2 class="spec-top__title spec-content__title">Vehicle Specifications</h2>
+								<div class="spec-top__inf spec-content__inf red">
+									<span>4 damages</span>
+								</div>
+							</div>
+							<div class="spec-content__main main-feature">
+								<div class="main-feature__row">
+									<ul class="main-feature__list">
+										<li class="main-feature__item">
+											<div class="main-feature__item-l _icon-calendar">Year</div>
+											<div class="main-feature__item-r">2019</div>
+										</li>
+										<li class="main-feature__item">
+											<div class="main-feature__item-l _icon-loc">Country</div>
+											<div class="main-feature__item-r">Germany</div>
+										</li>
+									</ul>
+									<ul class="main-feature__list line">
+										<li class="main-feature__item">
+											<div class="main-feature__item-l _icon-car">Make</div>
+											<div class="main-feature__item-r">Mercedes-Benz</div>
+										</li>
+										<li class="main-feature__item">
+											<div class="main-feature__item-l _icon-car">Model</div>
+											<div class="main-feature__item-r">GLC</div>
+										</li>
+										<li class="main-feature__item">
+											<div class="main-feature__item-l _icon-car">Trim</div>
+											<div class="main-feature__item-r">AMG GLC43</div>
+										</li>
+									</ul>
+									<ul class="main-feature__list line">
+										<li class="main-feature__item">
+											<div class="main-feature__item-l _icon-car">Body</div>
+											<div class="main-feature__item-r">-</div>
+										</li>
+										<li class="main-feature__item">
+											<div class="main-feature__item-l _icon-wheel">Steering type</div>
+											<div class="main-feature__item-r">Rack & Pinion</div>
+										</li>
+										<li class="main-feature__item">
+											<div class="main-feature__item-l _icon-tap">Engine</div>
+											<div class="main-feature__item-r">3.0-L V-6 DOHC 24V</div>
+										</li>
+										<li class="main-feature__item">
+											<div class="main-feature__item-l _icon-truck">Anti-Brake System</div>
+											<div class="main-feature__item-r">4-Wheel</div>
+										</li>
+										<li class="main-feature__item">
+											<div class="main-feature__item-l _icon-sit">Standard seating </div>
+											<div class="main-feature__item-r">5</div>
+										</li>
+										<li class="main-feature__item">
+											<div class="main-feature__item-l _icon-sit">Optional seating</div>
+											<div class="main-feature__item-r">-</div>
+										</li>
+									</ul>
+								</div>
+								<div class="main-feature__row">
+									<ul class="main-feature__list">
+										<li class="main-feature__item">
+											<div class="main-feature__item-l _icon-gas">Fuel type</div>
+											<div class="main-feature__item-r">Premium Unleaded</div>
+										</li>
+										<li class="main-feature__item">
+											<div class="main-feature__item-l _icon-xcv">Fuel capacity</div>
+											<div class="main-feature__item-r">17.4 gallons</div>
+										</li>
+									</ul>
+									<ul class="main-feature__list line">
+										<li class="main-feature__item">
+											<div class="main-feature__item-l _icon-calendar">Gross weight</div>
+											<div class="main-feature__item-r">-</div>
+										</li>
+										<li class="main-feature__item">
+											<div class="main-feature__item-l _icon-car-h">Height</div>
+											<div class="main-feature__item-r">63.1 inches</div>
+										</li>
+										<li class="main-feature__item">
+											<div class="main-feature__item-l _icon-car-l">Length</div>
+											<div class="main-feature__item-r">186.3 inches</div>
+										</li>
+										<li class="main-feature__item">
+											<div class="main-feature__item-l _icon-car-w">Width</div>
+											<div class="main-feature__item-r">74.4 inches</div>
+										</li>
+									</ul>
+									<ul class="main-feature__list line">
+										<li class="main-feature__item">
+											<div class="main-feature__item-l _icon-speed">Highway mileage </div>
+											<div class="main-feature__item-r">27 miles/gallon</div>
+										</li>
+										<li class="main-feature__item">
+											<div class="main-feature__item-l _icon-speed">City mileage</div>
+											<div class="main-feature__item-r">22 miles/gallon</div>
+										</li>
+									</ul>
+									<ul class="main-feature__list line">
+										<li class="main-feature__item">
+											<div class="main-feature__item-l _icon-dollar-s">Invoice price</div>
+											<div class="main-feature__item-r">-</div>
+										</li>
+										<li class="main-feature__item">
+											<div class="main-feature__item-l _icon-dollar-s">Recomend retail price</div>
+											<div class="main-feature__item-r"><a href="">Open price</a></div>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="specifiaction-content__bottom spec-content__bottom">
+								<span class="specifiaction-content__bt-left spec-content__left">Resource</span>
+								<span class="specifiaction-content__bt-left spec-content__right">checkcarvin</span>
+							</div>
+						</div>
+					</div>
+					<div class="specifiaction__side">
+						<div class="spec-info">
+							<div class="spec-info__sub-title">General information</div>
+							<div class="spec-info__title">Vehicle Specifications</div>
+							<ul class="spec-info__list">
+								<li class="spec-info__item"><span class="_icon-lock"></span>Vehicle damages</li>
+								<li class="spec-info__item"><span class="_icon-lock"></span>Ownership history</li>
+								<li class="spec-info__item"><span class="_icon-lock"></span>Junk Salvage Information</li>
+								<li class="spec-info__item"><span class="_icon-lock"></span>Vehicle Value Information</li>
+								<li class="spec-info__item"><span class="_icon-lock"></span>Title records</li>
+								<li class="spec-info__item"><span class="_icon-lock"></span>Theft records</li>
+								<li class="spec-info__item"><span class="_icon-lock"></span>Lien / Impound / Thief Records</li>
+								<li class="spec-info__item"><span class="_icon-lock"></span>Salvage</li>
+								<li class="spec-info__item"><span class="_icon-lock"></span>Accident record</li>
+								<li class="spec-info__item"><span class="_icon-lock"></span>Salvage auction sale hiistiry</li>
+								<li class="spec-info__item"><span class="_icon-lock"></span>Title checks</li>
+								<li class="spec-info__item"><span class="_icon-lock"></span>NMVTIS Consumer Access Product
+									Disclaimer</li>
+							</ul>
+						</div>
+						<button data-pay class="specifiaction__side-btn btn">Buy full report 5,99€</button>
+					</div>
+				</div>
+			</div>
+			<div class="full-vers">
+				<div class="full-vers__container">
+					<div class="full-vers__tilte sub-title">Open full report version</div>
+					<div class="full-vers__cards">
+						<div class="full-vers__card card-full">
+							<div class="card-full__img">
+								<picture><source srcset="img/main/checkcar-vin.webp" type="image/webp"><img src="img/main/checkcar-vin.png" alt=""></picture>
+							</div>
+							<div class="card-full__price">
+								<span class="numb">6</span>
+								<span>/item</span>
+							</div>
+							<div class="card-full__text">
+								A trusted source with an extensive database of US vehicles protecting the car market from unsafe
+								vehicles
+							</div>
+							<div class="card-full__btn btn">Add to order</div>
+						</div>
+						<div class="full-vers__card card-full">
+							<div class="card-full__img">
+								<picture><source srcset="img/main/autocheck.webp" type="image/webp"><img src="img/main/autocheck.png" alt=""></picture>
+							</div>
+							<div class="card-full__price">
+								<span class="numb">8</span>
+								<span>/item</span>
+							</div>
+							<div class="card-full__text">
+								Unlimited checks, a system for comparing cars of the same type by points, loyal pricing policy
+							</div>
+							<div class="card-full__btn btn">Add to order</div>
+						</div>
+						<div class="full-vers__card card-full">
+							<div class="card-full__img">
+								<picture><source srcset="img/main/carfax.webp" type="image/webp"><img src="img/main/carfax.png" alt=""></picture>
+							</div>
+							<div class="card-full__price">
+								<span class="numb">9</span>
+								<span>/item</span>
+							</div>
+							<div class="card-full__text">
+								A report on the number of owners, equipment, mileage, and other information. The famous global
+								brand is the leader in the trust of auto buyers from the USA and Canada
+							</div>
+							<div class="card-full__btn btn">Add to order</div>
+						</div>
+						<div class="full-vers__card card-full">
+							<div class="card-full__img">
+								<picture><source srcset="img/main/win-sticker.webp" type="image/webp"><img src="img/main/win-sticker.png" alt=""></picture>
+							</div>
+							<div class="card-full__price">
+								<span class="numb">12</span>
+								<span>/item</span>
+							</div>
+							<div class="card-full__text">
+								Free sticker for cars from the USA with a report from the manufacturer - information about
+								options, fuel consumption, price
+							</div>
+							<div class="card-full__btn btn">Add to order</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="offer">
+				<div class="offer__container">
+					<div class="offer__title">Special offer</div>
+					<div class="offer__content">
+						<div class="offer__quantities">
+							<div class="offer__quantity">
+								<div class="offer__quantity-img">
+									<picture><source srcset="img/main/win-sticker.webp" type="image/webp"><img src="img/main/win-sticker.png" alt=""></picture>
+								</div>
+								<div class="quantity">
+									<button type="button" class="quantity__button quantity__button_plus"></button>
+									<div class="quantity__input">
+										<input autocomplete="off" type="text" name="form[]" value="1">
+									</div>
+									<button type="button" class="quantity__button quantity__button_minus"></button>
+								</div>
+							</div>
+							<div class="offer__quantity">
+								<div class="offer__quantity-img">
+									<picture><source srcset="img/main/autocheck.webp" type="image/webp"><img src="img/main/autocheck.png" alt=""></picture>
+								</div>
+								<div class="quantity">
+									<button type="button" class="quantity__button quantity__button_plus"></button>
+									<div class="quantity__input">
+										<input autocomplete="off" type="text" name="form[]" value="1">
+									</div>
+									<button type="button" class="quantity__button quantity__button_minus"></button>
+								</div>
+							</div>
+							<div class="offer__quantity">
+								<div class="offer__quantity-img">
+									<picture><source srcset="img/main/carfax.webp" type="image/webp"><img src="img/main/carfax.png" alt=""></picture>
+								</div>
+								<div class="quantity">
+									<button type="button" class="quantity__button quantity__button_plus"></button>
+									<div class="quantity__input">
+										<input autocomplete="off" type="text" name="form[]" value="1">
+									</div>
+									<button type="button" class="quantity__button quantity__button_minus"></button>
+								</div>
+							</div>
+							<div class="offer__quantity">
+								<div class="offer__quantity-img">
+									<picture><source srcset="img/main/checkcar-vin.webp" type="image/webp"><img src="img/main/checkcar-vin.png" alt=""></picture>
+								</div>
+								<div class="quantity">
+									<button type="button" class="quantity__button quantity__button_plus"></button>
+									<div class="quantity__input">
+										<input autocomplete="off" type="text" name="form[]" value="1">
+									</div>
+									<button type="button" class="quantity__button quantity__button_minus"></button>
+								</div>
+							</div>
+						</div>
+						<div class="offer__block">
+							<div class="offer__block-item">
+								<div class="offer__block-first"><span>28</span>/pack</div>
+								<div class="offer__block-second"><span>24</span>/pack</div>
+								<button class="offer__btn btn">Add to order</button>
+							</div>
+						</div>
+					</div>
+					<div class="offer__sub-title">
+						<h2><span>Pay</span> now <span>less</span> — <span>use more</span> after</h2>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__top">
+					<a href="" class="footer__logo">
+						<img src="img/footer/logo.svg" alt="">
+						<span>Check VIN. Don't be fooled</span>
+					</a>
+					<div class="footer__block">
+						<div class="footer__text">
+							NMVTIS Data is used for Vehicle Auto Vin Check and Car History Reports Copyright © 2021 Grand Auto
+							Solutions Inc. All rights reserved. The use of this Web site constitutes acceptance of the
+						</div>
+					</div>
+				</div>
+				<div class="footer__bottom">
+					<div class="footer__copy">© 2021 PLC Auction Inc. All rights are reserved.</div>
+					<div class="footer__links">
+						<a href="" class="footer__link">Terms of Conditions</a>
+						<a href="" class="footer__link">Privacy Policy</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div class="pay-menu" data-pay-menu>
+		<div class="pay-menu__content">
+			<div class="pay-menu__top-close">
+				<button data-close-pay-menu class="close"></button>
+			</div>
+			<div class="pay-menu__body">
+				<h2 class="pay-menu__title">Enter credit card details to pay for the report</h2>
+				<div class="pay-menu__imgs">
+					<picture><source srcset="img/main/vmc.webp" type="image/webp"><img src="img/main/vmc.png" alt=""></picture>
+					<picture><source srcset="img/main/discover.webp" type="image/webp"><img src="img/main/discover.png" alt=""></picture>
+					<picture><source srcset="img/main/p.webp" type="image/webp"><img src="img/main/p.png" alt=""></picture>
+				</div>
+				<div class="pay-menu__order">
+					<div class="pay-menu__order-top">
+						<h3 class="label order">Your order</h3>
+						<h3 class="label numb">Number</h3>
+						<h3 class="label price">Price</h3>
+					</div>
+					<div class="pay-menu__order-rows">
+						<div class="pay-menu__order-row">
+							<div class="pay-menu__order-your item order">
+								<h4 class="pay-menu__order-title">Report Checkcar.vin</h4>
+								<div class="pay-menu__order-text">VIN 45386729587654398</div>
+								<div class="pay-menu__order-desc">
+									<span>6 reports </span>
+									<span>(use from your profile)</span>
+								</div>
+							</div>
+							<div class="pay-menu__order-numb item numb">
+								<span>7</span>
+								<span data-tippy-content class="_icon-info"></span>
+							</div>
+							<div class="pay-menu__order-price item price">
+								<span>$ 36</span>
+							</div>
+						</div>
+						<div class="pay-menu__order-row">
+							<div class="pay-menu__order-your item order">
+								<h4 class="pay-menu__order-title">Report Checkcar.vin</h4>
+								<div class="pay-menu__order-text">VIN 45386729587654398</div>
+								<div class="pay-menu__order-desc">
+									<span>6 reports </span>
+								</div>
+							</div>
+							<div class="pay-menu__order-numb item numb">
+								<span>1</span>
+							</div>
+							<div class="pay-menu__order-price item price">
+								<span>$ 36</span>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="pay-menu__sub-total title">
+					<span>Total</span>
+					<span>$ 36</span>
+				</div>
+				<div class="pay-menu__card">
+					<div class="pay-menu__card-label">Card number</div>
+					<div class="pay-menu__card-numb">
+						<input placeholder="0000" type="text">
+						<input placeholder="0000" type="text">
+						<input placeholder="0000" type="text">
+						<input placeholder="0000" type="text">
+					</div>
+					<div class="pay-menu__card-footer">
+						<div class="pay-menu__card-date">
+							<div class="pay-menu__card-label">Date to</div>
+							<div class="pay-menu__card-in">
+								<input placeholder="00" type="text">
+								<span>/</span>
+								<input placeholder="00" type="text">
+							</div>
+						</div>
+						<div class="pay-menu__card-cvc">
+							<div class="pay-menu__card-label">CVV / CVC</div>
+							<input placeholder="000" type="text">
+						</div>
+					</div>
+				</div>
+				<div class="pay-menu__email">
+					<span class="title">Your email</span>
+					<input placeholder="Your e-mail here" type="text">
+					<span class="sub-desc">Your account will be automatically created after the purchase</span>
+				</div>
+				<div class="pay-menu__total">
+					<div class="pay-menu__total-price">
+						<span>Total</span>
+						<span>$ 36</span>
+					</div>
+					<button class="btn pay-menu__btn" id="payBtn">Pay</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__body">
+					<div data-tabs class="popup-tabs">
+						<div class="popup-tabs__top">
+							<nav data-tabs-titles class="popup-tabs__navigation">
+								<button type="button" data-log-dest class="popup-tabs__title">Log in</button>
+								<button type="button" data-reg-dest class="popup-tabs__title _tab-active">Register</button>
+							</nav>
+							<button data-close type="button" class="popup__close close"></button>
+						</div>
+
+						<div data-tabs-body class="popup-tabs__content">
+							<div class="popup-tabs__body">
+								<form class="popup-tabs__form form-author">
+									<div class="form-author__item">
+										<label for="email1">Email address</label>
+										<input id="email1" autocomplete="off" type="email" name="form[]" class="input">
+									</div>
+									<div class="form-author__item">
+										<label for="pass1">Password</label>
+										<input id="pass1" autocomplete="off" type="password" name="form[]" class="input">
+									</div>
+									<div class="form-author__item line">
+										<label for="check-pass" class="form-author__checkbox">Remember me
+											<input id="check-pass" type="checkbox">
+											<span class="checkmark"></span>
+										</label>
+										<a href="">Lost password?</a>
+									</div>
+									<button type="submit" class="form-author__btn btn">Continue</button>
+									<div class="form-author__addit-login">
+										<div class="text">
+											<span>OR</span>
+										</div>
+										<button class="form-author__addit-btn">
+											<img src="img/icons/google.svg" alt="">
+											<span>Continue with Google</span>
+										</button>
+									</div>
+								</form>
+							</div>
+							<div class="popup-tabs__body">
+								<form class="popup-tabs__form form-author">
+									<div class="form-author__item">
+										<label for="name">First Name</label>
+										<input id="name" autocomplete="off" type="text" name="form[]" class="input">
+									</div>
+									<div class="form-author__item">
+										<label for="lastName">Last Name</label>
+										<input id="lastName" autocomplete="off" type="text" name="form[]" class="input">
+									</div>
+									<div class="form-author__item">
+										<label for="email2">Email Address</label>
+										<input id="email2" autocomplete="off" type="email" name="form[]" class="input">
+									</div>
+									<div class="form-author__item">
+										<label for="pass2">Password</label>
+										<input id="pass2" autocomplete="off" type="password" name="form[]" class="input">
+									</div>
+									<div class="form-author__item">
+										<label for="pass2Repeat">Repeat Password</label>
+										<input id="pass2Repeat" autocomplete="off" type="password" name="form[]" class="input">
+									</div>
+									<button type="submit" class="form-author__btn btn">Register</button>
+
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20220731221947"></script>
+</body>
+
+</html>
